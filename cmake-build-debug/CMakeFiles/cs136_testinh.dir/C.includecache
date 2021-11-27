@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jianzhuangzhang/Desktop/cs136 testinh/cs136.h
+assert.h
+-
+limits.h
+-
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+
+/Users/jianzhuangzhang/Desktop/cs136 testinh/main.c
+cs136.h
+/Users/jianzhuangzhang/Desktop/cs136 testinh/cs136.h
+
